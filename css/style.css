@@ -1,0 +1,283 @@
+/*Inicia header
+==============================================*/
+.logo {
+	width: 10%;
+	height: auto;
+	
+}
+
+.button-res {
+	margin-right: 0px;
+}
+.navbar-inverse .navbar-nav>.active>a {
+	color: #24c0ff;
+	border-bottom: 1px solid #24c0ff;
+	padding-bottom: 1px;
+}
+
+.bordes-form {
+	overflow: hidden;
+	border: none;
+	margin: 0;
+	padding: 10px 3px;
+	padding-bottom: 0px;
+
+}
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+/*ventana modal 
+============================================*/
+
+.boton-cancelar{
+	margin-left: 20px;
+}
+
+/*pantalla index
+==============================================*/
+
+.tam-index-muestra {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+.cont-index {
+	margin-top: 20px;
+}
+.centrar {
+	 width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotoindex {
+	cursor:pointer;
+}
+
+
+/* Inicia articulo perfil-pag-principal
+=======================================*/
+
+.nombre-us {
+	margin-left: 3%;
+	margin-top: 60px;
+	color: #fff;
+}
+
+.img-tamaño {
+	width: 80px;
+	height: 80px;
+	margin-top:10px;
+	margin-bottom: 5px;
+	margin-left: 50%;
+	border: solid 2px #fff;
+}
+
+.boton-us {
+	margin-top:15px;
+	margin-left: 5%;
+
+}
+
+#article-perfil-index {
+	background-image:  url(../img/fotos_perfil1.jpg);
+	background-color: rgba(0,0,0,.2);
+ 	border-bottom: #24c0ff 4px ridge;
+}
+.fondo {
+	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+	margin: 0px 15px;
+}
+.link-perfil a{
+	padding: 4px 7px;
+}
+	.link-perfil a{
+		margin-bottom: 5px;
+	}
+
+
+/* Inicia Section vista section pag principal
+===============================================*/
+
+.vista-foto{
+	margin: 10px 0px;	
+}
+
+.container .contenedor-foto {
+	padding: 20px;
+}
+
+.tamaño-foto {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.perfil-foto {
+	margin-bottom: 10px;
+
+}
+.scroll {
+	margin-top:30px;
+	overflow: auto;
+	max-height: 456px;
+}
+.comentarios {
+	border-bottom: #24c0ff 1px ridge;
+	word-wrap: break-word;
+	margin-bottom: 10px;
+}
+	.comentarios p {
+		font-size: 1.3rem;
+		margin:0px;
+	}
+	.comentarios h5 {
+		margin-bottom: 15px;
+		margin-left: 5%;
+	}
+
+.btn-comentarios {
+	margin-right: 2%;
+	margin-top: 20px;
+}
+
+
+/*Perfil
+========================================================*/
+.user-perfil {
+	margin-top: 50px;
+	margin-left: 10%;
+}
+.fil-datos{
+	margin-top: 20px;
+
+}
+.error {
+	color:red;
+	margin: 0px auto;
+}
+
+.exito {
+	color: green;
+}
+/*Pantalla albums
+==============================================================*/
+.album {
+	margin-left: 5%;
+}
+.carpeta {
+	color: #ecda82;
+	font-size: 6rem;
+}
+
+.btn-album {
+	margin-bottom: 10px;
+}
+
+.btn-borrar {
+	color: red;	
+}
+.btn-crear {
+	margin: 20px 0px;
+}
+.icon-plus {
+	font-size: 1rem;
+	margin-left: 1px;
+}
+
+
+/*pantalla fotos
+=========================================================*/
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+#comentarios {overflow-y: scroll;
+height: 200px;}
+
+.borrar-mod-f {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.muestra{ 
+	height: 200px;
+	overflow: hidden;
+ }
+
+.borrar-comentario {
+	color:blue;
+	font-size: .5
+}
+
+.btn-anadir{
+	margin-top: 20px;
+}
+
+#com {
+	width: 70%;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+}
+
+/*pantalla solicitudes
+===========================================*/
+
+.btn-aceptar {
+	margin-right: 10px;
+}
+
+/*pantalla fotos
+==============================================*/
+#div-foto {
+	width: 100%;
+}
+
+.tam-muestra {
+	max-width: 250px;
+	max-height: 190px;
+	height: auto;
+	margin: auto;
+}
+
+.modal-b-mod>a>.tam-muestra {
+	max-width: 550px;
+	max-height: 2000px;
+	height: auto;
+	height: auto;
+	
+}
+.fotos-seleccionadas {
+	margin-left: 10px;
+}
+
+input[type="file"].borrar-file , input[type="text"].borrar-file , input[type="radio"].borrar-file{
+	display: none;
+}
+
+.label-seleccion{
+	cursor: pointer;
+	margin-left: 10px;
+	color: blue;
+}
+.aviso {
+	color: red;
+	display: block;
+	width: 100%;
+}
+#radio-cont2, #radio-cont1{
+	width: 15%;
+}
+
+/*pantalla siguiendo 
+=========================================================*/
+
+.btn-siguiendo{
+	margin-left: 10px;
+}
